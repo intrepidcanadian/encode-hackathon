@@ -165,7 +165,6 @@ button:hover, button:focus {
 input {
   background-color: var(--light-gray);
   caret-color: var(--primary);
-  color: inherit;
   border: none;
   border-radius: 5px 0 0 5px;
   padding: .25em .5em;
@@ -251,6 +250,7 @@ form {
 
 label, input {
   color: #fff;
+  background-color: #2d19aa;
   padding: 5px;
 }
 
@@ -277,6 +277,16 @@ section {
 option {
   text-align: center;
   font-size: 1.5rem;
+}
+
+.container__memorial {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container__memorial--image {
+  width: 10rem;
 }
 
 #near-wallet-selector-modal {

@@ -163,7 +163,6 @@ input {
   border: none;
   border-radius: 5px 0 0 5px;
   caret-color: var(--primary);
-  color: inherit;
   padding: 0.25em 0.5em;
 }
 input::selection {
@@ -257,6 +256,8 @@ form {
 label, input {
   padding: 5px;
   color: white;
+  background-color: rgb(45, 25, 170);
+
 }
 
 input {
@@ -288,3 +289,20 @@ option {
   text-align: center;
   font-size: 1.5rem;
 }
+
+.container__memorial {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.container__memorial--image {
+
+width: 10rem;
+
+
+}
+

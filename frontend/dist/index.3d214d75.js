@@ -27411,9 +27411,17 @@ function App({ isSignedIn, contractId, wallet }) {
                                 lineNumber: 155,
                                 columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: `https://ipfs.io/ipfs/${selectedProfile.ipfsLink}`,
-                                alt: "Profile"
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "container__memorial",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    className: "container__memorial--image",
+                                    src: `https://ipfs.io/ipfs/${selectedProfile.ipfsLink}`,
+                                    alt: "Profile"
+                                }, void 0, false, {
+                                    fileName: "App.js",
+                                    lineNumber: 157,
+                                    columnNumber: 13
+                                }, this)
                             }, void 0, false, {
                                 fileName: "App.js",
                                 lineNumber: 156,
@@ -27426,7 +27434,7 @@ function App({ isSignedIn, contractId, wallet }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "App.js",
-                                lineNumber: 160,
+                                lineNumber: 162,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -27436,7 +27444,7 @@ function App({ isSignedIn, contractId, wallet }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "App.js",
-                                lineNumber: 161,
+                                lineNumber: 163,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -27446,27 +27454,27 @@ function App({ isSignedIn, contractId, wallet }) {
                                         children: "Add Memorial Message:"
                                     }, void 0, false, {
                                         fileName: "App.js",
-                                        lineNumber: 164,
+                                        lineNumber: 166,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                                         id: "messageInput"
                                     }, void 0, false, {
                                         fileName: "App.js",
-                                        lineNumber: 165,
+                                        lineNumber: 167,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                         children: "Add Message"
                                     }, void 0, false, {
                                         fileName: "App.js",
-                                        lineNumber: 166,
+                                        lineNumber: 168,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.js",
-                                lineNumber: 163,
+                                lineNumber: 165,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27480,12 +27488,12 @@ function App({ isSignedIn, contractId, wallet }) {
                                         ]
                                     }, index, true, {
                                         fileName: "App.js",
-                                        lineNumber: 171,
+                                        lineNumber: 173,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "App.js",
-                                lineNumber: 169,
+                                lineNumber: 171,
                                 columnNumber: 13
                             }, this)
                         ]

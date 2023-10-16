@@ -153,10 +153,12 @@ export default function App({ isSignedIn, contractId, wallet }) {
         {selectedProfile && (
           <section>
             <h2>{selectedProfile.fullName}</h2>
-            <img
+            <div className = "container__memorial">
+            <img className = "container__memorial--image"
               src={`https://ipfs.io/ipfs/${selectedProfile.ipfsLink}`}
               alt="Profile"
             />
+            </div>
             <h2>Birth: {selectedProfile.birthDate}</h2>
             <h2>Death: {selectedProfile.deathDate}</h2>
 
