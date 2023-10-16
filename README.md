@@ -13,7 +13,7 @@ Now how many people know about their grandparents' parents?
 
 In this hackathon, I built a simple registry on the Near Blockchain to upload details of death.
 
-This death certificate allows people to leave comments. I envision that this project can be further expanded upon with:
+This death certificate allows people to leave commemorative messages. I envision that this project can be further expanded upon with:
 - more sophisticated contracts that can develop linkages to other profiles
 - can be used to have a repository of information about the individual
 - gated access so that information can be used to generate a LLM chat bot for interaction
