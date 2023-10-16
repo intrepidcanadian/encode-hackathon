@@ -1,3 +1,22 @@
+Notes for the Encode Hackathon - Near
+==================
+
+How many people know their grandparents? 
+
+Now how many people know about their grandparents' parents? 
+
+- Recently, I have felt there is lost history from one generation to the next.
+- Blockchain's long-term storage represents an intriguing opportunity to commemorate our past at minimal one-time gas fee costs
+- Everytime a person dies, or a computer with images is damaged, an entire library of history is burned
+
+In this hackathon, I built a simple registry on the Near Blockchain to upload details of death.
+
+This death certificate allows people to leave comments. I envision that this project can be further expanded upon with:
+- more sophisticated contracts that can develop linkages to other profiles
+- can be used to have a repository of information about the individual
+- gated access so that information can be used to generate a LLM chat bot for interaction
+- used for building a family trust that can support generations
+
 near-blank-project
 ==================
 
