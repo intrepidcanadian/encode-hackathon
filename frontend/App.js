@@ -167,7 +167,6 @@ export default function App({ isSignedIn, contractId, wallet }) {
               <input id="messageInput" />
               <button>Add Message</button>
             </form>
-
             <ul>
               {memorialMessages.map((message, index) => (
                 <li key={index}>
@@ -175,6 +174,12 @@ export default function App({ isSignedIn, contractId, wallet }) {
                 </li>
               ))}
             </ul>
+            <h2>Chat with Persona: {selectedProfile.fullName}</h2>
+            <form>
+              <label>Message</label>
+              <input id="chatInput" />
+              <button>Ask Question</button>
+            </form>
           </section>
         )}
       </main>

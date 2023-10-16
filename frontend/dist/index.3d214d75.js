@@ -27488,12 +27488,51 @@ function App({ isSignedIn, contractId, wallet }) {
                                         ]
                                     }, index, true, {
                                         fileName: "App.js",
-                                        lineNumber: 173,
+                                        lineNumber: 172,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "App.js",
-                                lineNumber: 171,
+                                lineNumber: 170,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                children: [
+                                    "Chat with Persona: ",
+                                    selectedProfile.fullName
+                                ]
+                            }, void 0, true, {
+                                fileName: "App.js",
+                                lineNumber: 177,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                        children: "Message"
+                                    }, void 0, false, {
+                                        fileName: "App.js",
+                                        lineNumber: 179,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                        id: "chatInput"
+                                    }, void 0, false, {
+                                        fileName: "App.js",
+                                        lineNumber: 180,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                        children: "Ask Question"
+                                    }, void 0, false, {
+                                        fileName: "App.js",
+                                        lineNumber: 181,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "App.js",
+                                lineNumber: 178,
                                 columnNumber: 13
                             }, this)
                         ]

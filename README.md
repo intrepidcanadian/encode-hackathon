@@ -1,6 +1,8 @@
 Notes for the Encode Hackathon - Near
 ==================
 
+Video Demo: https://www.loom.com/share/3ee9013167fe4338977422ee5b913aad?sid=bd9ce8de-505e-41a5-a81d-0a994cc0372e
+
 How many people know their grandparents? 
 
 Now how many people know about their grandparents' parents? 
