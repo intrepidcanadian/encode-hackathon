@@ -1,0 +1,5 @@
+DEFINE_NEAR_METHOD(addMemorialMessage)
+DEFINE_NEAR_METHOD(getAllProfileIds)
+DEFINE_NEAR_METHOD(getMemorialMessages)
+DEFINE_NEAR_METHOD(getProfile)
+DEFINE_NEAR_METHOD(registerDeceased)
