@@ -19,6 +19,11 @@ This death certificate allows people to leave comments. I envision that this pro
 - gated access so that information can be used to generate a LLM chat bot for interaction
 - used for building a family trust that can support generations
 
+starting project
+==================
+
+to start project, simply run npm install and then npm start
+
 near-blank-project
 ==================
 
