@@ -27560,7 +27560,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./assets/global.css":"1hP5v","./ui-components":"4LIXu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./assets/TreeRegistry.png":"brRt7"}],"dXNgZ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","regenerator-runtime/runtime":"dXNgZ","react":"21dqq","./assets/global.css":"1hP5v","./assets/TreeRegistry.png":"brRt7","./ui-components":"4LIXu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dXNgZ":[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -28147,7 +28147,45 @@ try {
     else Function("r", "regeneratorRuntime = r")(runtime);
 }
 
-},{}],"1hP5v":[function() {},{}],"4LIXu":[function(require,module,exports) {
+},{}],"1hP5v":[function() {},{}],"brRt7":[function(require,module,exports) {
+module.exports = require("9f8e557c1dc88045").getBundleURL("UckoE") + "TreeRegistry.1d54cd09.png" + "?" + Date.now();
+
+},{"9f8e557c1dc88045":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"4LIXu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$38d8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28190,7 +28228,7 @@ function SignInPrompt({ greeting, onClick }) {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "Your contract is storing a greeting message in the NEAR blockchain. To change it you need to sign in using the NEAR Wallet. It is very simple, just use the button below."
+                children: "This is for a contract registry for storing memorial messages for death registry."
             }, void 0, false, {
                 fileName: "ui-components.js",
                 lineNumber: 12,
@@ -28200,12 +28238,12 @@ function SignInPrompt({ greeting, onClick }) {
                 children: 'Do not worry, this app runs in the test network ("testnet"). It works just like the main network ("mainnet"), but using NEAR Tokens that are only for testing!'
             }, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 17,
+                lineNumber: 15,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 22,
+                lineNumber: 20,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28217,12 +28255,12 @@ function SignInPrompt({ greeting, onClick }) {
                     children: "Sign in with NEAR Wallet"
                 }, void 0, false, {
                     fileName: "ui-components.js",
-                    lineNumber: 24,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 23,
+                lineNumber: 21,
                 columnNumber: 7
             }, this)
         ]
@@ -28245,7 +28283,7 @@ function SignOutButton({ accountId, onClick }) {
         ]
     }, void 0, true, {
         fileName: "ui-components.js",
-        lineNumber: 32,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }
@@ -28257,7 +28295,7 @@ function EducationalText() {
                 children: "Look at that! A Hello World app! This greeting is stored on the NEAR blockchain. Check it out:"
             }, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 41,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ol", {
@@ -28269,7 +28307,7 @@ function EducationalText() {
                                 children: "frontend/App.js"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 46,
+                                lineNumber: 44,
                                 columnNumber: 19
                             }, this),
                             " - you'll see ",
@@ -28277,7 +28315,7 @@ function EducationalText() {
                                 children: "getGreeting"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 46,
+                                lineNumber: 44,
                                 columnNumber: 61
                             }, this),
                             " and ",
@@ -28285,7 +28323,7 @@ function EducationalText() {
                                 children: "setGreeting"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 46,
+                                lineNumber: 44,
                                 columnNumber: 90
                             }, this),
                             " being called on ",
@@ -28293,14 +28331,14 @@ function EducationalText() {
                                 children: "contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 46,
+                                lineNumber: 44,
                                 columnNumber: 131
                             }, this),
                             ". What's this?"
                         ]
                     }, void 0, true, {
                         fileName: "ui-components.js",
-                        lineNumber: 45,
+                        lineNumber: 43,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28310,7 +28348,7 @@ function EducationalText() {
                                 children: "contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 49,
+                                lineNumber: 47,
                                 columnNumber: 28
                             }, this),
                             " code is defined in ",
@@ -28318,7 +28356,7 @@ function EducationalText() {
                                 children: "./contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 49,
+                                lineNumber: 47,
                                 columnNumber: 69
                             }, this),
                             " \u2013 this is the source code for your ",
@@ -28329,14 +28367,14 @@ function EducationalText() {
                                 children: "smart contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 49,
+                                lineNumber: 47,
                                 columnNumber: 128
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "ui-components.js",
-                        lineNumber: 48,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -28346,7 +28384,7 @@ function EducationalText() {
                                 children: "npm run deploy"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 51,
+                                lineNumber: 49,
                                 columnNumber: 24
                             }, this),
                             ", the code in ",
@@ -28354,7 +28392,7 @@ function EducationalText() {
                                 children: "./contract"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 51,
+                                lineNumber: 49,
                                 columnNumber: 65
                             }, this),
                             " gets deployed to the NEAR testnet. You can see how this happens by looking in ",
@@ -28362,25 +28400,25 @@ function EducationalText() {
                                 children: "package.json"
                             }, void 0, false, {
                                 fileName: "ui-components.js",
-                                lineNumber: 51,
+                                lineNumber: 49,
                                 columnNumber: 167
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "ui-components.js",
-                        lineNumber: 50,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "ui-components.js",
-                lineNumber: 44,
+                lineNumber: 42,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                 fileName: "ui-components.js",
-                lineNumber: 53,
+                lineNumber: 51,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28393,7 +28431,7 @@ function EducationalText() {
                         children: "the NEAR docs"
                     }, void 0, false, {
                         fileName: "ui-components.js",
-                        lineNumber: 55,
+                        lineNumber: 53,
                         columnNumber: 37
                     }, this),
                     " or look through some ",
@@ -28404,14 +28442,14 @@ function EducationalText() {
                         children: "example apps"
                     }, void 0, false, {
                         fileName: "ui-components.js",
-                        lineNumber: 55,
+                        lineNumber: 53,
                         columnNumber: 141
                     }, this),
                     "."
                 ]
             }, void 0, true, {
                 fileName: "ui-components.js",
-                lineNumber: 54,
+                lineNumber: 52,
                 columnNumber: 7
             }, this)
         ]
@@ -28596,45 +28634,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"brRt7":[function(require,module,exports) {
-module.exports = require("9f8e557c1dc88045").getBundleURL("UckoE") + "TreeRegistry.1d54cd09.png" + "?" + Date.now();
-
-},{"9f8e557c1dc88045":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-}
-// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"dg9wB":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"dg9wB":[function(require,module,exports) {
 /* A helper file that simplifies using the wallet selector */ // near api js
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);

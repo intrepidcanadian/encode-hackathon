@@ -19,6 +19,10 @@ This death certificate allows people to leave commemorative messages. I envision
 - gated access so that information can be used to generate a LLM chat bot for interaction
 - used for building a family trust that can support generations
 
+Block hash on Near Testnet Blockchain
+36E94AQFzNU5Q7iDpuZkghrA72yc7nnXvo6ea2GyaDXj
+
+
 starting project
 ==================
 
